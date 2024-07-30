@@ -1,0 +1,35 @@
+/** {*/
+/*  outline: 1px solid red;*/
+/*}*/
+.hello-text{
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: 'silkscreen', serif;
+}
+
+
+.admin-panel {
+    display: flex;
+    height: 100%;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .sidebar .MuiButton-root {
+    margin-bottom: 10px;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  

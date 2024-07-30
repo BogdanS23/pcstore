@@ -1,0 +1,59 @@
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+.profile-header{
+    width: 80%;
+    align-self: center;
+    background-color: #bdbdbd;
+    padding: 0.5% 2%;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'silkscreen', serif;
+    z-index: 1;
+    margin-bottom: -1%;
+    border-radius: 10px;
+}
+
+.profOrderCard{
+    width: 80%;
+    align-self: center;
+    background-color: #dedede;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.order-card{
+    padding: 1%;
+    margin: 2%;
+    background-color: #c8c8c8;
+    border-radius: 10px;
+}
+
+.order-title{
+    font-family: 'silkscreen', serif;
+    font-size: 25px;
+}
+
+.pc-order-card{
+    margin-left: 30px;
+    margin: 1%;
+    background-color: #c1c1c1;;
+}
+
+.specs{
+    margin: 3px;
+    font-size: 18px;
+}
+
+.profile-info{
+    width: 80%;
+    align-self: center;
+    background-color: #dedede;
+    padding: 2%;
+    border-radius: 10px;
+    margin-bottom: 1%;
+    font-size: 20px;
+}

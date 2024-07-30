@@ -1,0 +1,22 @@
+/* src/styles/CartItemCard.css */
+.cart-item-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #f9f9f9;
+    margin: 10px;
+}
+
+.cart-item-card-header {
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 8px;
+    display: flex;
+}
+
+.cart-item-card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 20px;
+}

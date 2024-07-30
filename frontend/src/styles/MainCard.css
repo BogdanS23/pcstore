@@ -1,0 +1,74 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    margin-left: 3%;
+    margin-right: 3%;
+    box-shadow: 0 10px 20px 0 rgba(245, 245, 245, 0.774);
+    border-radius: 40px;
+
+  }
+
+  .card-content {
+    border-radius: 40px;
+    background-color: #dedede;
+    display: flex;
+    flex-direction: column;
+    padding: 29px 25px 10px;
+  }
+
+  .card-content:hover{
+    background-color: #c9c9c9;
+  }
+
+
+  @media (max-width: 991px) {
+    .card-content {
+      padding: 0 20px;
+    }
+  }
+
+@font-face {
+    font-family: silkscreen;
+    src: url("./Silkscreen [RUS by Mr.Enot].ttf");
+}
+
+  .card-title {
+    color: #000;
+    text-align: center;
+    font-family: silkscreen;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .card-image-wrapper {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-self: center;
+    position: relative;
+    margin-top: 10px;
+    width: 150px;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 13px 13px;
+    border-radius: 10px;
+    border: solid black;
+  }
+
+  .card-image {
+    aspect-ratio: 0.85;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+  }
+
+  .card-image-wrapper{
+    background: url("../assets/cardback.png") no-repeat center;
+    background-size: 100%;
+    
+
+}

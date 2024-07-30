@@ -1,0 +1,157 @@
+.header {
+    display: grid;
+
+}
+
+.login-button {
+    justify-self: end !important;
+    width: 120px !important;
+    max-width: 100% !important;
+    font-size: 16px !important;
+    /* font-family: Silkscreen [Rus by Mr.Enot], -apple-system, Roboto,
+      Helvetica, sans-serif; */
+    border-radius: 20px !important;
+    background-color: #000 !important;
+    padding: 2px 1px !important;
+}
+
+.logout-button {
+    justify-self: end !important;
+    width: 120px !important;
+    max-width: 100% !important;
+    font-size: 16px !important;
+    /* font-family: Silkscreen [Rus by Mr.Enot], -apple-system, Roboto,
+      Helvetica, sans-serif; */
+    border-radius: 20px !important;
+    background-color: #000 !important;
+    padding: 2px 1px !important;
+}
+
+.lk-button {
+    justify-self: end !important;
+    width: 200px !important;
+    max-width: 100% !important;
+    font-size: 16px !important;
+    /* font-family: Silkscreen [Rus by Mr.Enot], -apple-system, Roboto,
+      Helvetica, sans-serif; */
+    border-radius: 20px !important;
+    background-color: #000 !important;
+    padding: 2px 1px !important;
+}
+
+.admin-button {
+    justify-self: end !important;
+    width: 250px !important;
+    max-width: 100% !important;
+    font-size: 16px !important;
+    /* font-family: Silkscreen [Rus by Mr.Enot], -apple-system, Roboto,
+      Helvetica, sans-serif; */
+    border-radius: 20px !important;
+    background-color: #000 !important;
+    padding: 2px 1px !important;
+}
+
+.logo {
+    /*margin-top: 1%;*/
+    margin-bottom: 1%;
+    justify-self: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-img{
+    width: 58%;
+}
+
+.logo-grid{
+    display: grid;
+}
+
+@font-face {
+    font-family: silkscreen;
+    src: url("./Silkscreen [RUS by Mr.Enot].ttf");
+}
+
+.logo-text{
+    font-size: 110px;
+    font-family: silkscreen;
+    color: aliceblue;
+    position: absolute;
+    top: 26%;
+    left: 0;
+    text-align: center;
+    margin: auto;
+    background-color: #000;
+    width: 100%;
+    border-radius: 30px;
+
+}
+
+.main-content{
+    background-color: #000;
+    display: flex;
+    padding: 1.5%;
+    justify-content: center;
+
+}
+
+.special-products{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 20%);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    justify-items: center;
+    justify-content: center
+
+}
+
+.information-block{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.information{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    width: 65%;
+    margin-bottom: 70px;
+}
+
+.inf-block{
+    border-radius: 40px;
+    background-color: #dedede;
+    min-height: 50px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.25);
+}
+
+.inf-big-block{
+    grid-column: span 2;
+    padding: 4%;
+}
+
+.inf-small-block{
+    padding: 8%;
+}
+
+.side-card-title {
+    font-size: 30px;
+    font-family: silkscreen;
+
+  }
+
+  .side-card-description {
+    margin-top: 20px;
+    font: 22px/150% Roboto, sans-serif;
+  }
+
+  .side-card-image {
+    border-radius: 8px;
+    /*border: 1px solid #c4c4c4;*/
+    margin-top: 10px;
+  }
